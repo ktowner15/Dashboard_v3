@@ -1,0 +1,2 @@
+This resource is not used currently (I renamed EnvTile to AppTile to make naming conventions clearer), but GitHub doesn't like when I try to rename things.  A duplicate resource was created instead.  If I end up using this I'll make a note of it here.
+  - Kyle Towner, 7/10/2020

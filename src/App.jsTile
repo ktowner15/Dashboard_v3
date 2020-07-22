@@ -1,0 +1,30 @@
+import React from "react";
+
+import "./styles.css";
+import "./Components/Tile/tile.css";
+import Tile from "./Components/Tile/Tile";
+import apps from "./Const/appConst";
+
+function createTile(apps) {
+  return (
+    <Tile
+      key={apps.id}
+      appName={apps.appName}
+      description={apps.description}
+      owner={apps.owner}
+    />
+  );
+}
+
+export default function App() {
+  return (
+    <div className="App">
+      {/* The always-visible JSX/HTML is declared here, as well as router links. Examples below:*/}
+      {/* <EnvTile id="Click Environments" /> */}
+      {/* <Link to="/">Home</Link> */}
+      <div id="applications">
+        <div>{apps.map(createTile)}</div>
+      </div>
+    </div>
+  );
+}

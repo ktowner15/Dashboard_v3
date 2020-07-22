@@ -1,2 +1,4 @@
-# Dashboard_v3
+# Dashboard_Demo
+
 Created with CodeSandbox
+Author: Kyle Towner
