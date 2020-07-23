@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./Entry.css";
 import infoPage from "../rawHTML/infoPage.html";
+//How to import the table
+import e_list from "../../Resources/env_table";
 
 class Entry extends Component {
   redirect() {

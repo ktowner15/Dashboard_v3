@@ -32,6 +32,7 @@ class Tile extends Component {
           <button className=" button" onClick={this.redirect}>
             Environments
           </button>
+          
         </div>
       </div>
     );
